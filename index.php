@@ -48,6 +48,11 @@ if ($login->isUserLoggedIn() == true) {
 
 <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
 <link type="text/css" rel="stylesheet" href="css/main.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/jquery-2.0.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/carousel.js"></script>
+
 <script type="text/javascript">
 $(document).ready(function({
 	$('.carousel').carousel({
@@ -55,10 +60,7 @@ $(document).ready(function({
 	});
 }));
 </script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/jquery-2.0.0.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/carousel.js"></script>
+
 </head>
 <body>
     <!-- Navigation bar --> 
@@ -91,11 +93,11 @@ $(document).ready(function({
     </ul>
 						 
 						
-                <form style="float:right" action="signin.html">
+            <form style="float:right" action="views/not_logged_in.php">
                     <input type="submit" class="btn btn-primary" value="Sign in">
             </form>
 							  
-                <form style="float:right" action="register.html">
+            <form style="float:right" action="views/register.php">
                     <input type="submit" class="btn btn-primary" value="Sign up">
             </form>
 						
