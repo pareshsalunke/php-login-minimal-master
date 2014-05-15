@@ -6,7 +6,7 @@ functions available in those versions too). Follow the project on **[Twitter](ht
 
 1. **Minimal version** All the basic functions in a clean file structure, uses MySQL and mysqli.
    Register, login, logout.
-   https://github.com/panique/php-login-minimal
+  
 
 ## Requirements
 
